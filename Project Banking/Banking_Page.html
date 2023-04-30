@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Home Page</title>
+<script src="js/banking.js"></script>
+<link rel="stylesheet" href="css/banking.css">
+</head>
+<body>
+	
+	<div class ="navbar">
+		<a href="Home.html">
+			Home
+		</a>
+		<a href="contact.html">
+			Contact us
+		</a>
+		<a href="feedback.html">
+			feedback
+			</a>
+		<a href="About.html">
+			About us
+		</a>
+	</div>
+<button class="open" onclick="openform()" id="op" >Open Your Bank</button>
+   
+		
+<div class="popup" id="pop">
+	<form class="form-container">
+		<h1 style="text-align:center;">Login BANK</h1>
+		<label for="text"> <b>LOGIN</b> </label>
+		<input type="text" placeholder="Login ID" name="id" id="s1" required>
+		
+		<label for="psw"> <b>PASSWORD</b> </label>
+		<input type="password" placeholder="Password" name="psw" id="s2" required>
+		
+		<button type="button" class="ok" onclick="log()">LOGIN</button>
+		<button type="reset" class="ok cancel" onclick="closeform()" >CLOSE</button><br><hr>
+		</form>
+</div>	
+
+	
+	<form id="best">
+			<a href="#" onclick="hhd()"><p id="p1" ></p></a>      <p style="text-align:center;"id=pp1> </p>
+            <a href="#" onclick="with1()"><p id="p2"></p></a>     <p style="text-align:right;"id=pp2> </p>
+            <a href="#" onclick="depo()"><p id="p3"></p></a>      <p style="text-align:right;"id=pp3> </p>
+            <a href="#" onclick="trans()"><p id="p4"></p></a>     <p style="text-align:right;"id=pp4> </p>
+		    <a href="#" onclick="logo()" ><p id="p5"></p></a>     <p style="text-align:right;"id=pp5> </p>
+	
+	</form>
+		
+</body>
+</html>
